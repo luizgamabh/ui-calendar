@@ -72,7 +72,7 @@ module.exports = function (grunt) {
         uglify : {
             build : {
                 src : ['src/**/*.js'],
-                dest : 'calendar.min.js'
+                dest : 'dist/calendar.min.js'
             }
         },
         connect : {
