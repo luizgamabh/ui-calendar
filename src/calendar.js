@@ -235,7 +235,7 @@ angular.module('ui.calendar', [])
             return {
                 restrict : 'A',
                 scope : {
-                    eventSources : '=ngModel',
+                    eventSources : '=eventsModel',
                     calendarWatchEvent : '&'
                 },
                 controller : 'uiCalendarCtrl',
